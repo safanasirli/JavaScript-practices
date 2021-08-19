@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Eater&family=Mystery+Quest&display=swap");
+
+body {
+  font-family: "Mystery Quest", cursive;
+  background-color: #523102;
+  text-align: center;
+  color: #fab453;
+}
+.container {
+  margin: 10px;
+  border: 3px solid #fab453;
+  padding: 15px;
+}
+h1 {
+  font-family: "Eater", cursive;
+}
+
+.cat {
+  font-family: fantasy;
+}
+.secret {
+  opacity: 0.5;
+}
+ul {
+  list-style: none;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+table {
+  margin: 0 auto;
+  line-height: 2rem;
+}
+.cabbage {
+  color: CHARTREUSE;
+}
+
+h1 {
+    -webkit-animation: text-shadow-pop-top 0.6s both;
+    animation: text-shadow-pop-top 0.6s both;
+  }
+  @-webkit-keyframes h1 {
+    0% {
+      text-shadow: 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555,
+        0 0 #555, 0 0 #555;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    100% {
+      text-shadow: 0 -1px #555, 0 -2px #555, 0 -3px #555, 0 -4px #555, 0 -5px #555,
+        0 -6px #555, 0 -7px #555, 0 -8px #555;
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+  }
+  @keyframes text-shadow-pop-top {
+    0% {
+      text-shadow: 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555,
+        0 0 #555, 0 0 #555;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    100% {
+      text-shadow: 0 -1px #555, 0 -2px #555, 0 -3px #555, 0 -4px #555, 0 -5px #555,
+        0 -6px #555, 0 -7px #555, 0 -8px #555;
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+  }
+  
+  table {
+    -webkit-animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 0.9s both;
+  }
+  
+  @-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
